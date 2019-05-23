@@ -15,6 +15,24 @@ var interval = setInterval(function() {
     }
 }, 1000);
 
+// QUESTIONS
+
+var exam = [
+{
+    question: "What is you skin type?",
+    answers: {
+        a: 'dry',
+        b: 'oily',
+        c: 'normal',
+        d: 'combination'
+    },
+    
+}
+]
+
+
+
+
 
 
 //function countDown () {
