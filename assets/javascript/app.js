@@ -1,9 +1,24 @@
 //setTimeout(fiveSeconds, 1000 * 5);
 //console.log (setTimeout)
 
+/*var counter = 0;
+
+
+function setup(){
+    var timer = select('#watch');
+    timer.html(counter);
+
+    function timeIt() {
+        counter++;
+        timer.html(counter);
+    }
+    setInterval(timeIt, 1000);
+}
+*/
+
 
 // Setting up the countdown from sixty to zero
-var timer = 60;
+var timer = 60; 
 
 var interval = setInterval(function() {
     document.getElementById('watch').innerHTML = --timer;
@@ -26,10 +41,10 @@ var exam = [
         c: 'normal',
         d: 'combination'
     },
-    
 }
 ]
 
+//function showExam (exam, "trivia")
 
 
 
