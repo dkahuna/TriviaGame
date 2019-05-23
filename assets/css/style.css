@@ -1,8 +1,11 @@
-#countDown {
-    text-align: center
+#watch {
+    text-align: center;
+    margin-top: 40px;
 
 }
 
 .card-title {
-    text-align: center
+    text-align: center;
+    background-color: maroon;
+    margin-top: 60px; 
 }
