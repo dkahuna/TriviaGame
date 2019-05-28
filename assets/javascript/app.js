@@ -41,8 +41,21 @@ var exam = [
         c: 'normal',
         d: 'combination'
     },
-}
-]
+    correctAnswer: "d"
+},
+{   
+    question: "If today is Monday. What is the day after tomorrow?",
+    answers: {
+        a: 'tuesday',
+        b: 'friday',
+        c: 'saturday',
+        d: 'monday'
+    },
+   
+
+}];
+console.log (exam)
+
 
 //function showExam (exam, "trivia")
 
