@@ -1,22 +1,3 @@
-//setTimeout(fiveSeconds, 1000 * 5);
-//console.log (setTimeout)
-
-/*var counter = 0;
-
-
-function setup(){
-    var timer = select('#watch');
-    timer.html(counter);
-
-    function timeIt() {
-        counter++;
-        timer.html(counter);
-    }
-    setInterval(timeIt, 1000);
-}
-*/
-
-
 // Setting up the countdown from sixty to zero
 var timer = 60; 
 
@@ -30,39 +11,17 @@ var interval = setInterval(function() {
     }
 }, 1000);
 
-// QUESTIONS
+function submitAnswers () {
+    var total = 5;
+    var score = 0;
 
-var exam = [
-{
-    question: "What is you skin type?",
-    answers: {
-        a: 'dry',
-        b: 'oily',
-        c: 'normal',
-        d: 'combination'
-    },
-    correctAnswer: "d"
-},
-{   
-    question: "If today is Monday. What is the day after tomorrow?",
-    answers: {
-        a: 'tuesday',
-        b: 'friday',
-        c: 'saturday',
-        d: 'monday'
-    },
-   
-
-}];
-console.log (exam)
-
-
-//function showExam (exam, "trivia")
+    // Get User Input
+    var q1 =
+}
 
 
 
 
 
-//function countDown () {
-  //  document.getElementById("watch").innerHTML = timer;
-//}
+
+
