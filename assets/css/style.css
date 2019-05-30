@@ -1,11 +1,6 @@
-#watch {
-    text-align: center;
-    margin-top: 40px;
-
-}
-
-.card-title {
-    text-align: center;
-    background-color: maroon;
-    margin-top: 60px; 
+body{
+    background-color: blue;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
 }
