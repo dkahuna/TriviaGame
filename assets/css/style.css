@@ -51,3 +51,9 @@ input[type="submit"] {
     color: #000;
     font-weight: bold;
 }
+
+#quiz-time-left {
+    text-align: center;
+    font-size: 35px;
+    color: royalblue;
+}

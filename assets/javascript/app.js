@@ -18,7 +18,7 @@ var c_minutes = parseInt(total_seconds/60);
 var c_seconds = parseInt(total_seconds%60);
 
 function CheckTime () {
-    document.getElementById("quiz-time-left").innerHTML = "Time Left: " + c_minutes + "minutes" + c_seconds + "seconds";
+    document.getElementById("quiz-time-left").innerHTML = "Time Left: " + c_minutes + "minutes " + c_seconds + "seconds";
         if (total_seconds <=0) {
            submitAnswers()
         }   else {
